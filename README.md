@@ -3,7 +3,7 @@ The project aims to design and develop a suite of novel AI, Machine learning and
 <b>Project components</b> <br>
 <ul>
 <li> TI's mmWave radar system configurations </li>
-<li> HR/RR extraction and estimation methods  </li>
+<li> HR/RR extraction methods  </li>
 <li> Vibration simulation platform </li>
 <li> Published results and work-in-progress </li>
 </ul>
