@@ -10,9 +10,9 @@ The project aims to design and develop a suite of novel AI, Machine learning and
 <br>
 
 <b>Publications</b><br>
-Comming soon!<br><br>
+<i>Comming soon!</i><br><br>
 
 <b>Affiliations</b><br>
-<b>Ubiquitous and Web Computing Research Lab</b><br>
+<i>Ubiquitous and Web Computing Research Lab</i><br>
 School of Engineering, Computer and Mathematical Sciences<br>
 Auckland University of Technology, New Zealand <br>
