@@ -13,7 +13,7 @@ The project aims to design and develop a suite of novel AI, Machine learning and
 <i>Comming soon!</i><br><br>
 
 <b>Affiliations</b><br>
-<a href="https://ubiweb.aut.ac.nz/" target="_blank"><i>Ubiquitous and Web Computing Research Lab (UbiWeb)</i></a><br>
+<a href="https://ubiweb.aut.ac.nz/" target="blank"><i>Ubiquitous and Web Computing Research Lab (UbiWeb)</i></a><br>
 School of Engineering, Computer and Mathematical Sciences<br>
 Auckland University of Technology, New Zealand <br>
 
