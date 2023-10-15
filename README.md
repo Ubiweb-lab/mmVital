@@ -1,5 +1,8 @@
-# mmVital
--- mmWave for Vital signs monitoring --
-
-The project includes signal processing codes for extracting heart rates (HR) and respiratory rates (RR) from mmWave sensor data.
-Lastest updated: 14/10/2023
+# mmVital - Radar-based vital signs monitoring system
+# Ubiquitous and Web Computing Lab, Auckland University of Technology, New Zealand
+# The project includes:
+#      - TI's mmWave radar configurations
+#      - Vital signs (HR/RR) estimation
+#      - Vibration simulation platform
+#      - Published results and work-in-progress 
+# -------------------------------------------------------------------------------------
