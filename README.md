@@ -1,5 +1,5 @@
 # mmVital - Radar-based vital signs monitoring system
-The project aims to research and develop a suite of novel AI and signal processing techniques for non-contact vital signs monitoring system based on mmWave radar
+The project aims to research and develop a suite of novel AI, Machine learning and signal processing techniques for non-contact vital signs monitoring system based on mmWave radar<br>
 The project includes: <br>
 <ul>
 <li> TI's mmWave radar configurations </li>
