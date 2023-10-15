@@ -1,6 +1,7 @@
 # mmVital - Radar-based vital signs monitoring system
-@Ubiquitous and Web Computing Lab, Auckland University of Technology, New Zealand <br>
-The project includes: <be>
+<b>Ubiquitous and Web Computing Lab<b><br>
+Auckland University of Technology, New Zealand <br>
+The project includes: <br>
 <ul>
 <li> TI's mmWave radar configurations </li>
 <li> Vital signs (HR/RR) estimation </li>
