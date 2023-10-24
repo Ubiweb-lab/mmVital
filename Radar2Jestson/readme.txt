@@ -4,6 +4,10 @@ Streams output in real time through 1-Gbps Ethernet (from DCA1000 to Jetson Nano
 mmWave software development kit (SDK) for linux (Jetson)
 Download: https://www.ti.com/tool/MMWAVE-SDK
 
+mmWave Demo Visualizer (windows, Mac and Linux): 
+https://github.com/sgs-weather-and-environmental-systems/demo-visualizer
+This version of app is compatible with mmWave SDK versions 1.2.0, 1.1.0 and 1.0.0.
+
 DCA1000 configuration in the file: datacard_config.json
 
 How to get DCA1000 CLI Utility for Linux
