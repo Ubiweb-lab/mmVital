@@ -7,4 +7,4 @@ Download: https://www.ti.com/tool/MMWAVE-SDK
 Serial Communication Library: 
 pip install pyserial
 
-Sample python scripts to parse the raw IQ data output of the demo are provided in mmwave_sdk_<ver>\packages\ti\demo\parser_scripts
+Sample python scripts to parse the cloud point output of the demo are provided in mmwave_sdk_<ver>\packages\ti\demo\parser_scripts
