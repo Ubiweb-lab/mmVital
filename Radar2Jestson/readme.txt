@@ -7,7 +7,9 @@ Download: https://www.ti.com/tool/MMWAVE-SDK
 DCA1000 configuration in the file: datacard_config.json
 
 How to get DCA1000 CLI Utility for Linux
-The Linux based CLI sourcecode can be obtained from mmWave Studio package. Please download and install mmWave Studio (MMWAVE-STUDIO) version 2.1 or later from http://www.ti.com/tool/MMWAVE-STUDIO and browse to the installed folder: C:\ti\mmwave_studio_<ver>\mmWaveStudio\ReferenceCode\DCA1000. Copy the 'SourceCode' folder to a linux machine and use the instructions from C: \ti\mmwave_studio_<ver>\mmWaveStudio\ReferenceCode\DCA1000\Docs\TI_DCA1000EVM_CLI_Software_UserGuide. pdf to build the utility for your linux distribution.
+The Linux based CLI sourcecode can be obtained from mmWave Studio package. 
+Please download and install mmWave Studio (MMWAVE-STUDIO) version 2.1 or later from http://www.ti.com/tool/MMWAVE-STUDIO and browse to the installed folder: C:\ti\mmwave_studio_<ver>\mmWaveStudio\ReferenceCode\DCA1000. 
+Copy the 'SourceCode' folder to a linux machine and use the instructions from C:\ti\mmwave_studio_<ver>\mmWaveStudio\ReferenceCode\DCA1000\Docs\TI_DCA1000EVM_CLI_Software_UserGuide. pdf to build the utility for your linux distribution.
 
 
 Linux::DCA1000EVM CLI Commands
