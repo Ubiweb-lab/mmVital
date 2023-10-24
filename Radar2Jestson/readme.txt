@@ -1,3 +1,6 @@
+DCA1000 Captures LVDS data from IWR6843ISK radar sensors
+Streams output in real time through 1-Gbps Ethernet (from DCA1000 to Jetson Nano)
+
 mmWave software development kit (SDK) for linux (Jetson)
 Download: https://www.ti.com/tool/MMWAVE-SDK
 
