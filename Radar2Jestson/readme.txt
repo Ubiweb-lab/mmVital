@@ -15,6 +15,15 @@ The Linux based CLI sourcecode can be obtained from mmWave Studio package.
 Please download and install mmWave Studio (MMWAVE-STUDIO) version 2.1 or later from http://www.ti.com/tool/MMWAVE-STUDIO and browse to the installed folder: C:\ti\mmwave_studio_<ver>\mmWaveStudio\ReferenceCode\DCA1000. 
 Copy the 'SourceCode' folder to a linux machine and use the instructions from C:\ti\mmwave_studio_<ver>\mmWaveStudio\ReferenceCode\DCA1000\Docs\TI_DCA1000EVM_CLI_Software_UserGuide. pdf to build the utility for your linux distribution.
 
+DCA1000EVM CLI Setup
+➢ Copy the DCA1000EVM CLI binaries in the PC. Refer section 3.1.2 and 3.2.2 for the list of CLI binaries required for Windows and Linux platforms respectively.
+➢ DCA1000EVM should be connected to Host PC via Ethernet cable to access the CLI and Data Transfer process.
+➢ DCA1000EVM should be connected to PC via USB Cable (J1-Radar FTDI) for configuring the RADAR EVM by using on board FTDI chip.
+➢ DCA1000EVM should be connected to TI Radar EVM via 60 pin HD Connector by using 60 pin Samtec ribbon cable.
+➢ DCA1000EVM power input should be connected either from DC Jack or TI Radar EVM power output (from 60 pin HD connector) by selecting the switch SW3.
+➢ RADAR EVM should be connected to ±5V power supply.
+➢ Follow the mmWave Studio or mmWave SDK User Guide for additional RADAR EVM connectivity to PC and
+other pre-requisites.
 
 Linux::DCA1000EVM CLI Commands
 
