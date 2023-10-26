@@ -1,0 +1,22 @@
+{
+"DCA1000Config": {1.01
+"dataLoggingMode": "raw", "dataTransferMode": "LVDSCapture", "dataCaptureMode": "ethernetStream", "lvdsMode": 1,
+"dataFormatMode": 1, "packetDelay_us": 25, "ethernetConfig": {
+"DCA1000IPAddress": "192.168.33.180", "DCA1000ConfigPort": 4096, "DCA1000DataPort": 4098
+}, "ethernetConfigUpdate": {
+"systemIPAddress": "192.168.33.30", "DCA1000IPAddress": "192.168.33.180", "DCA1000MACAddress": "12.34.56.78.90.12", "DCA1000ConfigPort": 4096, "DCA1000DataPort": 4098
+}, "captureConfig": {
+"fileBasePath": "D:\\capture", "filePrefix": "outdoor_capture", "maxRecFileSize_MB": 1024, "sequenceNumberEnable": 1, "captureStopMode": "duration", "bytesToCapture": 50000, "durationToCapture_ms": 5000, "framesToCapture":10
+}, "dataFormatConfig": {
+"MSBToggle": 0, "reorderEnable": 1,
+"laneFmtMap": 0,
+"dataPortConfig": [ {
+www.ti.com}, {
+}, {
+}, {
+}, {
+}
+]
+}
+} 
+}
