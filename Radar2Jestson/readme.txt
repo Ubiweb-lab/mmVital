@@ -25,6 +25,40 @@ DCA1000EVM CLI Setup
 ➢ Follow the mmWave Studio or mmWave SDK User Guide for additional RADAR EVM connectivity to PC and
 other pre-requisites.
 
+Files Requirements To Execute CLI
+Files required for CLI execution:
+Files                                       Description
+DCA1000EVM_CLI_Control                      Executable file that does validation of user inputs and execution of configuration commands
+DCA1000EVM_CLI_Record                       Executable file that does validation of user inputs and execution of record commands
+libRF_API.so                                Dynamic library file that handles execution of configuration commands and recording of the  
+                                            captured data in files
+configFile.json                             JSON file for configuration from user
+
+➢ Open the command prompt and move to the directory where the above-mentioned files are downloaded.
+➢ Make the files DCA1000EVM_CLI_Control and DCA1000EVM_CLI_Record as executables using ‘sudo chmod +x DCA1000EVM_CLI_Control’ and ‘sudo chmod +x DCA1000EVM_CLI_Record’ commands (if the files are
+not already in the executable mode).
+➢ Update LD_LIBRARY_PATH using ‘export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$pwd’ command.
+
+Start recording using command sequence:
+
+CLI Command Sequence
+For successful recording of data from RADAR EVM sequence is given as follows
+1. Configure FPGA
+▪ Ensure JSON config file (CLI) and Script config file (RADAR EVM) data format mode are in sync ▪ Command - ./DCA1000EVM_CLI_Control fpga configFile.json
+2. Configure record delay
+▪ Command - ./DCA1000EVM_CLI_Control record configFile.json
+3. Start the record
+▪ Ensure JSON config file (CLI) and Script config file (RADAR EVM) data logging mode are in sync ▪ Command - ./DCA1000EVM_CLI_Control start_record configFile.json
+36 DCA1000EVM CLI Software User Guide 1.01 Copyright @2019. Texas Instruments Incorporated
+ 
+ www.ti.com DCA1000EVM CLI Execution Instructions 4. Stop the record after recording data
+▪ Command - ./DCA1000EVM_CLI_Control stop_record configFile.json For successful record process, FPGA should be reconfigured in the following scenarios
+➢ When the system is booted or rebooted
+➢ When the FPGA or DCA1000EVM is reset
+➢ On switching between multi-mode and raw mode
+
+
+
 Linux::DCA1000EVM CLI Commands
 
 # configure DCA1000EVM
