@@ -58,20 +58,6 @@ For successful recording of data from RADAR EVM sequence is given as follows
 ➢ On switching between multi-mode and raw mode
 
 
-
-Linux::DCA1000EVM CLI Commands
-
-# configure DCA1000EVM
-./DCA1000EVM_CLI_Control fpga datacard_config.json
-#configure CLI application with the record related settings
-./DCA1000EVM_CLI_Control record datacard_config.json
-#start record and wait for the data over ethernet
-./DCA1000EVM_CLI_Control start_record datacard_config.json
-
-Linux::Stop DCA1000EVM_CLI
-
-./DCA1000EVM_CLI_Control stop_record datacard_config.json
-
 Serial Communication Library: 
 pip install pyserial
 
