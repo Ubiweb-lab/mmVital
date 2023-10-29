@@ -57,6 +57,8 @@ For successful recording of data from RADAR EVM sequence is given as follows
 ➢ When the FPGA or DCA1000EVM is reset
 ➢ On switching between multi-mode and raw mode
 
+For the "raw" mode, the data filename would be <File_Prefix>_Raw_<iteration>.bin. Raw mode is only supported for H/W session and the saved data is directly payload with no header or extra bytes/padding
+
 
 Serial Communication Library: 
 pip install pyserial
