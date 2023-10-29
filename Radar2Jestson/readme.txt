@@ -15,6 +15,10 @@ The Linux based CLI sourcecode can be obtained from mmWave Studio package.
 Please download and install mmWave Studio (MMWAVE-STUDIO) version 2.1 or later from http://www.ti.com/tool/MMWAVE-STUDIO and browse to the installed folder: C:\ti\mmwave_studio_<ver>\mmWaveStudio\ReferenceCode\DCA1000. 
 Copy the 'SourceCode' folder to a linux machine and use the instructions from C:\ti\mmwave_studio_<ver>\mmWaveStudio\ReferenceCode\DCA1000\Docs\TI_DCA1000EVM_CLI_Software_UserGuide. pdf to build the utility for your linux distribution.
 
+cd /home/wobble/Radar2Jetson
+make
+cp configfile.json /home/wobble/Radar2Jetson/DCA1000/SourceCode/Release/
+
 DCA1000EVM CLI Setup
 ➢ Copy the DCA1000EVM CLI binaries in the PC. Refer section 3.1.2 and 3.2.2 for the list of CLI binaries required for Windows and Linux platforms respectively.
 ➢ DCA1000EVM should be connected to Host PC via Ethernet cable to access the CLI and Data Transfer process.
