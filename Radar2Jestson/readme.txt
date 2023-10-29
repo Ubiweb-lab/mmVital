@@ -19,6 +19,10 @@ cd /home/wobble/Radar2Jetson
 make
 cp configfile.json /home/wobble/Radar2Jetson/DCA1000/SourceCode/Release/
 
+After Radar and DCA1000 are connect with Jetson
+configure the network eth0 as 192.168.33.30
+$lsusb #show the prot
+
 DCA1000EVM CLI Setup
 ➢ Copy the DCA1000EVM CLI binaries in the PC. Refer section 3.1.2 and 3.2.2 for the list of CLI binaries required for Windows and Linux platforms respectively.
 ➢ DCA1000EVM should be connected to Host PC via Ethernet cable to access the CLI and Data Transfer process.
