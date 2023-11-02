@@ -45,7 +45,18 @@ configFile.json                             JSON file for configuration from use
 ➢ Open the command prompt and move to the directory where the above-mentioned files are downloaded.
 ➢ Make the files DCA1000EVM_CLI_Control and DCA1000EVM_CLI_Record as executables using ‘sudo chmod +x DCA1000EVM_CLI_Control’ and ‘sudo chmod +x DCA1000EVM_CLI_Record’ commands (if the files are
 not already in the executable mode).
-➢ Update LD_LIBRARY_PATH using ‘export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$pwd’ command.
+➢ Update LD_LIBRARY_PATH using 
+
+Option 1: ‘export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$pwd’ command.
+
+Option 2:
+nano ~/.bashrc
+Add the following line to the end of the file:
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$pwd
+Control+x
+source ~/.bashrc
+
+
 
 Start recording using command sequence:
 
