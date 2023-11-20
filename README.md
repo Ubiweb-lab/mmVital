@@ -11,7 +11,7 @@ The project aims to design and develop a suite of novel AI/Machine learning and 
 
 <b>Publications</b><br>
 <ul>
-<li>A. Singh, S. U. Rehman, S. Yongchareon and P. H. J. Chong, "Multi-Resident Non-Contact Vital Sign Monitoring Using Radar: A Review," in IEEE Sensors Journal, vol. 21, no. 4, pp. 4061-4084, 15 Feb.15, 2021, https://doi: 10.1109/JSEN.2020.3036039</li>
+<li>A. Singh, S. U. Rehman, S. Yongchareon and P. H. J. Chong, "Multi-Resident Non-Contact Vital Sign Monitoring Using Radar: A Review," in IEEE Sensors Journal, vol. 21, no. 4, pp. 4061-4084, 15 Feb.15, 2021, https://doi.org/10.1109/JSEN.2020.3036039</li>
 <li>Singh, A.; Rehman, S.U.; Yongchareon, S.; Chong, P.H.J. Modelling of Chest Wall Motion for Cardiorespiratory Activity for Radar-Based NCVS Systems. Sensors 2020, 20, 5094. https://doi.org/10.3390/s20185094</li>
 </ul>
 
