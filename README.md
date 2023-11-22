@@ -13,7 +13,8 @@ The project aims to design and develop a suite of novel AI/Machine learning and 
 <img src="https://github.com/Ubiweb-lab/mmVital/assets/147883739/4467643f-780a-4fbf-af7c-73ecadc0063d" width="400" height="400">
 <img src="https://github.com/Ubiweb-lab/mmVital/assets/147883739/dc7b6410-0bf7-4392-9434-c5e570eedc15" width="400" height="400">
 <img src="https://github.com/Ubiweb-lab/mmVital/assets/147883739/29b00155-a5b0-406d-a0fd-019df3bb3491" width="400" height="400">
-<img src="https://github.com/Ubiweb-lab/mmVital/assets/147883739/5201ce09-7dc7-451b-bfb0-0efcf23598b5" width="400" height="400">
+<img src="https://github.com/Ubiweb-lab/mmVital/assets/147883739/94da65e0-f4bb-45e2-9d1c-8987eb1a623c" width="400" height="400">
+
 <br>
 
 <b>Publications</b><br>
