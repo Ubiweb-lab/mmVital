@@ -7,8 +7,14 @@ The project aims to design and develop a suite of novel AI/Machine learning and 
 <li> Vibration simulation platform </li>
 <li> Published results and work-in-progress </li>
 </ul>
-<br>
+<be>
 
+<b>Expertiment setups</b><br>
+![radar1](https://github.com/Ubiweb-lab/mmVital/assets/147883739/4467643f-780a-4fbf-af7c-73ecadc0063d)
+![radar2](https://github.com/Ubiweb-lab/mmVital/assets/147883739/dc7b6410-0bf7-4392-9434-c5e570eedc15)
+![radar6](https://github.com/Ubiweb-lab/mmVital/assets/147883739/29b00155-a5b0-406d-a0fd-019df3bb3491)
+
+<br>
 <b>Publications</b><br>
 <ul>
 <li>A. Singh, S. U. Rehman, S. Yongchareon and P. H. J. Chong, "Multi-Resident Non-Contact Vital Sign Monitoring Using Radar: A Review," in IEEE Sensors Journal, vol. 21, no. 4, pp. 4061-4084, 15 Feb.15, 2021, https://doi.org/10.1109/JSEN.2020.3036039</li>
