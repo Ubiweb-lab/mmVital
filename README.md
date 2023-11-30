@@ -15,6 +15,7 @@ The project aims to design and develop a suite of novel AI/Machine learning and 
 <img src="https://github.com/Ubiweb-lab/mmVital/assets/147883739/29b00155-a5b0-406d-a0fd-019df3bb3491" width="400" height="400">
 <img src="https://github.com/Ubiweb-lab/mmVital/assets/147883739/94da65e0-f4bb-45e2-9d1c-8987eb1a623c" width="400" height="400">
 
+
 <br>
 
 <b>Publications</b><br>
@@ -23,6 +24,9 @@ The project aims to design and develop a suite of novel AI/Machine learning and 
 <li>Singh, A.; Rehman, S.U.; Yongchareon, S.; Chong, P.H.J. Modelling of Chest Wall Motion for Cardiorespiratory Activity for Radar-Based NCVS Systems. Sensors 2020, 20, 5094. https://doi.org/10.3390/s20185094</li>
 </ul>
 
+<b>Data</b><br>
+There are multiple data collection series to evaluate the performance of our radar system. Data is available for researchers upon request. Please feel free to contact us.
+<br>
 <b>Affiliations</b><br>
 <a href="https://ubiweb.aut.ac.nz/" target="_blank"><i>Ubiquitous and Web Computing Research Lab (UbiWeb)</i></a><br>
 School of Engineering, Computer and Mathematical Sciences<br>
