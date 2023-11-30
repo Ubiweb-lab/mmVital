@@ -28,7 +28,7 @@ There are multiple data collection series to evaluate the performance of our rad
 </ul>
 
 <b>Research Team</b><br>
-![Team lunch @Nham 29 Nov 2023](https://github.com/Ubiweb-lab/mmVital/assets/147883739/45144013-3235-45f9-987a-4e081d1d2191)
+<img src="https://github.com/Ubiweb-lab/mmVital/assets/147883739/45144013-3235-45f9-987a-4e081d1d2191" width="800" height="800">
 </br>
 
 <b>Affiliations</b><br>
