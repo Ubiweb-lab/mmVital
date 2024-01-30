@@ -85,6 +85,7 @@ pip install pyserial
 Sample python scripts to parse the cloud point output of the demo are provided in mmwave_sdk_<ver>\packages\ti\demo\parser_scripts
 
 ---------------------------------------------------------------------------------------------
+Ensure the AWR1642 device has pre-flashed image in it, if not users need to use TI Uniflash tool ( http://www.ti.com/tool/UNIFLASH) to flash the device. SOP2 jumper and SOP0 jumper should be connected for starting Flash Programming Mode. The image in the directory of mmwave_SDK like mmwave_sdk_<ver>\ti\demo\<platform>\mmw\<platform>_mmw_demo.bin. 
 
 Radar_configuration.py can be used to start and stop AWR1642 millimeter Radar.
 Notes: Users need to switch the 'serial_port_CLI' to their own port in this Python file. 
