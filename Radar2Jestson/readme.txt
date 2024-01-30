@@ -88,3 +88,4 @@ Sample python scripts to parse the cloud point output of the demo are provided i
 
 Radar_configuration.py can be used to start and stop AWR1642 millimeter Radar.
 Notes: Users need to switch the 'serial_port_CLI' to their own port in this Python file. 
+The command './DCA1000EVM_CLI_Control start_record configFile.json' can be run to start record on DCA1000 after the Radar is working.
