@@ -83,3 +83,8 @@ Serial Communication Library:
 pip install pyserial
 
 Sample python scripts to parse the cloud point output of the demo are provided in mmwave_sdk_<ver>\packages\ti\demo\parser_scripts
+
+---------------------------------------------------------------------------------------------
+
+Radar_configuration.py can be used to start and stop AWR1642 millimeter Radar.
+Notes: Users need to switch the 'serial_port_CLI' to their own port in this Python file. 
