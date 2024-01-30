@@ -90,3 +90,5 @@ Ensure the AWR1642 device has pre-flashed image in it, if not users need to use 
 Radar_configuration.py can be used to start and stop AWR1642 millimeter Radar.
 Notes: Users need to switch the 'serial_port_CLI' to their own port in this Python file. 
 The command './DCA1000EVM_CLI_Control start_record configFile.json' can be run to start record on DCA1000 after the Radar is working.
+
+Extension of large space NVMe storage on the Jetson-Orin-Nano/NX, users need to use physical PC with Ubuntu system rather than virtual system, and then download the SDK manager (https://docs.nvidia.com/sdk-manager/download-run-sdkm/index.html) to flash the Jetson-Orin-Nano/NX.
