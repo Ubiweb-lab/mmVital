@@ -296,7 +296,7 @@ t = np.arange(0, N) / fs  # Time axis
 
 # --------------------HR_RR--------------------------
 
-filename_hex = f"Hex_HR_ref.xlsx"
+filename_hex = f"Hex_HR_ref.xls"
 
 # Read Excel file
 x_HR_all = pd.read_excel(filename_hex)
@@ -306,7 +306,7 @@ x_HR = x_HR_all.iloc[1:, 1].values
 # print('shape of x_HR', x_HR.shape)
 # print('x_HR', x_HR)
 
-filename_hex_rr = f"Hex_RR_ref.xlsx"
+filename_hex_rr = f"Hex_RR_ref.xls"
 x_RR_all = pd.read_excel(filename_hex_rr)
 x_RR = x_RR_all.iloc[1:, 1].values
 # print('shape of x_RR', x_RR.shape)
