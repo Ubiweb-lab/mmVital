@@ -1,8 +1,8 @@
 import serial, time
 
 # Configure IWR1642 by serial port
-serial_port_CLI = 'COM6'
-file_cfg = 'cfg/profile.cfg'
+serial_port_CLI = '/dev/ttyACM0'
+file_cfg = 'profile.cfg'
 print('Sending ' + file_cfg + ' to IWR1642 on ' + serial_port_CLI)
 CLIport = serial.Serial(serial_port_CLI, 115200, timeout=1)
 if CLIport.is_open:
