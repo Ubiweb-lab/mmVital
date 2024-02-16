@@ -74,8 +74,7 @@ bf_data = combined_signal_reshaped.ravel()
 
 # Optional: If you want to visualize the results, you can plot the beamformed signal in time and frequency domains
 # For example, you can use matplotlib for plotting
-
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 # Plot time-domain signal
 # plt.figure(figsize=(10, 4))
@@ -100,7 +99,7 @@ import matplotlib.pyplot as plt
 #-----------------------------------DC Offset correction----------------------------------
 import numpy as np
 from scipy.optimize import least_squares
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 Bi = np.real(bf_data)
 Bq = np.imag(bf_data)
@@ -314,7 +313,7 @@ x_RR = x_RR_all.iloc[1:, 1].values
 # print('x_RR', x_RR)
 
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 # Replace this function with the actual implementation or equivalent in Python
 # Example usage of the provided code
 fs = 10  # replace with the actual sampling frequency
