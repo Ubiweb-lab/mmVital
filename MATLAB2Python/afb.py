@@ -6,7 +6,7 @@ def afb(X, N0, N1):
     # print('shape of N', N)
     # print('shape of N1', N1)
     # print('shape of X', X)
-    P, T, S = (N - N1) // 2, (N0 + N1 - N) // 2 - 1, (N - N0) // 2
+    P, T, S = int((N - N1) // 2), int((N0 + N1 - N) // 2 - 1), int((N - N0) // 2)
     # print('shape of T',T)
 
     # Transition-band function
