@@ -3,6 +3,8 @@ import numpy as np
 def sfb(V0, V1, N):
     N0 = len(V0)
     N1 = len(V1)
+    N = int(N)
+
 
 
     # print('shape of N', N)
