@@ -25,6 +25,7 @@ def afb(X, N0, N1):
 
 
     # Low-pass subband
+    N0 = int(N0)
     V0 = np.zeros(N0, dtype=X.dtype)
 
     # 直流分量
