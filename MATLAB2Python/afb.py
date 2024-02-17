@@ -3,6 +3,7 @@ import numpy as np
 def afb(X, N0, N1):
     X = X.flatten()  # Ensure X is a 1D array
     N = len(X)
+    N1 = int(N1)
     # print('shape of N', N)
     # print('shape of N1', N1)
     # print('shape of X', X)
