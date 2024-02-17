@@ -8,6 +8,7 @@ def lps(X, N0):
     # - length(X) should be even
 
     N = len(X)
+    N0 = int(N0)
     Y = np.zeros(N0, dtype=X.dtype)
 
     if N0 <= N:
