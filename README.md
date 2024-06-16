@@ -22,7 +22,6 @@ There are multiple data collection series to evaluate the performance of our rad
 
 <b>Publications</b><br>
 <ul>
-<li> More publications coming soon!! </li>
   <li>A. Singh, S. Yongchareon, S. U. Rehman, Y. Yu and P. H. J. Chong, "A Real-Time Beam Steering and Accurate Vital Sign Estimation Method in an Indoor Environment," in IEEE Internet of Things Journal, 2024, https://doi.org/10.1109/JIOT.2024.3410209.</li>
   <li>A. Singh, S. U. Rehman, S. Yongchareon and P. H. J. Chong, "Human Vital Signs Estimation Using Resonance Sparse Spectrum Decomposition," in IEEE Transactions on Human-Machine Systems, 2024, https://doi.org/10.1109/THMS.2024.3381074.</li>
   <li>A. Singh, S. U. Rehman, S. Yongchareon and P. H. J. Chong, "Multi-Resident Non-Contact Vital Sign Monitoring Using Radar: A Review," in IEEE Sensors Journal, vol. 21, no. 4, pp. 4061-4084, 2021, https://doi.org/10.1109/JSEN.2020.3036039</li>
