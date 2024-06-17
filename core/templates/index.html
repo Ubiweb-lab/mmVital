@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Timer</title>
+  <style>
+    #timer-container {
+      padding: 10px;
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div id="timer-container"></div>
+
+  <script>
+    // Get the timer container element
+    var timerContainer = document.getElementById("timer-container");
+
+    // Create a new Date object and store the current time
+    var startTime = new Date();
+
+    // Update the timer every second
+    setInterval(function() {
+      // Calculate the difference between the current time and the start time
+      var currentTime = new Date();
+      var timeDifference = currentTime - startTime;
+
+      // Convert the time difference to hours, minutes, and seconds
+      var hours = Math.floor((timeDifference / (1000 * 60 * 60)) % 24);
+      var minutes = Math.floor((timeDifference / (1000 * 60)) % 60);
+      var seconds = Math.floor((timeDifference / 1000) % 60);
+
+      // Format the timer string
+      var timerString = (hours < 10 ? "0" + hours : hours) + ":" + (minutes < 10 ? "0" + minutes : minutes) + ":" + (seconds < 10 ? "0" + seconds : seconds);
+
+      // Update the timer container with the new time string
+      timerContainer.innerHTML = timerString;
+    }, 1000);
+  </script>
+</body>
+</html>
