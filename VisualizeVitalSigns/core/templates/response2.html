@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 60%;
+            min-width: 600px;
+            height: 300px;
+            background-color: black;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .image-container {
+            width: 33.33%;
+            height: 100%;
+            background-color: white;
+            padding: 10px;
+            position: absolute;
+            left: 0;
+            transition: left 1s ease-in-out;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="image-container" style="left: 0%;">
+        <img src="https://picsum.photos/id/1/200/300" alt="Image 1">
+    </div>
+    <div class="image-container" style="left: 33.33%;">
+        <img src="https://picsum.photos/id/10/200/300" alt="Image 2">
+    </div>
+    <div class="image-container" style="left: 66.66%;">
+        <img src="https://picsum.photos/id/100/200/300" alt="Image 3">
+    </div>
+    <div class="image-container" style="left: 100%;">
+        <img src="https://picsum.photos/id/1000/200/300" alt="Image 4">
+    </div>
+    <div class="image-container" style="left: 133.33%;">
+        <img src="https://picsum.photos/id/1001/200/300" alt="Image 5">
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        setInterval(function() {
+            $('.image-container:first').animate({
+                left: '-33.33%'
+            }, 1000, 'easeInOutCubic', function() {
+                $(this).appendTo('.container').css('left', '133.33%');
+            });
+        }, 1000);
+    });
+</script>
+
+</body>
+</html>

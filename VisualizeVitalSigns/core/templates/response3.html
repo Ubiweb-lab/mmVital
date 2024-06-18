@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: black;
+            width: 60%;
+            min-width: 600px;
+            height: 300px;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .image-container {
+            display: inline-block;
+            background-color: white;
+            padding: 10px;
+            margin-right: 10px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="image-container">
+        <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Image 1">
+    </div>
+    <div class="image-container">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Image 2">
+    </div>
+    <div class="image-container">
+        <img src="https://images.unsplash.com/photo-1523205771623-e0faa4d2813d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Image 3">
+    </div>
+    <div class="image-container">
+        <img src="https://images.unsplash.com/photo-1508704019882-f9cf40e475b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Image 4">
+    </div>
+    <div class="image-container">
+        <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Image 5">
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        let imageWidth = $(".image-container").outerWidth(true);
+        let containerWidth = $(".container").width();
+
+        let numberOfImages = $(".image-container").length;
+        let currentImage = 0;
+
+        function slideImages() {
+            $(".image-container").eq(currentImage).animate({
+                left: "-=" + imageWidth
+            }, 1000, "easeInOutCubic", function() {
+                $(this).css("left", containerWidth);
+                currentImage = (currentImage + 1) % numberOfImages;
+                slideImages();
+            });
+        }
+
+        slideImages();
+    });
+</script>
+
+</body>
+</html>
+

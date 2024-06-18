@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Slider</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #container {
+      width: 60%;
+      min-width: 600px;
+      height: 300px;
+      background-color: black;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+
+    .image-container {
+      width: calc(100% / 3);
+      height: 100%;
+      background-color: white;
+      padding: 10px;
+      float: left;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+<div id="container">
+  <div class="image-container">
+    <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Image 1">
+  </div>
+  <div class="image-container">
+    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Image 2">
+  </div>
+  <div class="image-container">
+    <img src="https://images.unsplash.com/photo-1523205771623-e0faa4d2813d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Image 3">
+  </div>
+  <div class="image-container">
+    <img src="https://images.unsplash.com/photo-1508704019882-f9cf40e475b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Image 4">
+  </div>
+  <div class="image-container">
+    <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Image 5">
+  </div>
+</div>
+
+<script>
+  $(document).ready(function() {
+    var imageWidth = $('.image-container').outerWidth();
+    var imageCount = $('.image-container').length;
+    var containerWidth = imageWidth * imageCount;
+    $('#container').css('width', containerWidth);
+
+    setInterval(function() {
+      $('.image-container:first').animate({
+        'margin-left': -imageWidth
+      }, 1000, 'easeInOutExpo').appendTo('#container');
+    }, 1000);
+  });
+</script>
+
+</body>
+</html>
+
