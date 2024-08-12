@@ -13,6 +13,10 @@ As estimating vital signs from radar signals using deep learning models is one o
   - CSV File
   - Description: CSV files are used to save the data of the vital signs of each participant.
 
+# UI Application Overview.
+<img width="354" alt="image" src="https://github.com/user-attachments/assets/e15b9d15-8f76-4536-8f30-86cc844d674b">
+
+
 # How to run the application?
 To run the application, you must first set up the Python environment and install the Django backend framework. 
 
