@@ -19,7 +19,7 @@ The project aims to design and develop a suite of novel AI/Machine learning and 
 <br>
 
 <b>Experiment Data</b><br>
-There are multiple data collection series to evaluate the performance of our radar system. Data is available for researchers upon request. Please feel free to contact us.
+There are multiple data collection series to evaluate the utility and performance of our radar system. Data can be made available for researchers upon request. Please feel free to contact us.
 <br>
 
 <b>Publications</b><br>
