@@ -18,7 +18,7 @@ The project aims to design and develop a suite of novel AI/Machine learning and 
 <img src="https://github.com/Ubiweb-lab/mmVital/assets/147883739/94da65e0-f4bb-45e2-9d1c-8987eb1a623c" width="400" height="400">
 <br>
 
-<b>Experiment Data</b><br>
+<b>Experiment/Simulation Data</b><br>
 There are multiple data collection series to evaluate the utility and performance of our radar system. Data can be made available for researchers upon request. Please feel free to contact us.
 <br>
 
